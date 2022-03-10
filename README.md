@@ -1,4 +1,4 @@
-# portfolio-skeleton
+# portfolio-Kimball
 
 The purpose of this project is to create a portfolio so that I can show off projects I have completed.
 
