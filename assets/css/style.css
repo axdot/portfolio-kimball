@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #111444;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  padding: 45px 25px;
+  background-color: rgb(150, 14, 14);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav {
+  margin: 10px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.75vw;
+}
+
+section {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+
+section h2 {
+  padding: 25px;
+}
+
+section div p {
+  font-size: 1.4444vw;
+}
+
+.project-samples div p {
+  background-image: url(../images/run-buddy-sample.JPG);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  Padding: 60px;
+}
+
+footer h2 {
+  padding: 25px;
+}
+
+footer ul li {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+footer ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
