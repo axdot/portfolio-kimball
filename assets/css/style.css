@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border:1px solid black;
 }
 
 body {
@@ -12,11 +13,10 @@ body {
 
 header {
   padding: 45px 25px;
-  background-color: rgb(150, 14, 14);
+  background-color: #00a2ff93;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  top: 0;
 }
 
 header a {
@@ -36,37 +36,53 @@ header nav ul {
 }
 
 header nav ul li a {
-  padding: 10px 15px;
+  padding: 10px 20px;
   font-weight: lighter;
   font-size: 1.75vw;
 }
 
 section {
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
-  padding: 60px;
+  padding: 30px;
+}
+
+.about-me {
+  border-bottom: 5px black;
 }
 
 section h2 {
   padding: 25px;
 }
 
-section div p {
+section div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-me div p {
   font-size: 1.4444vw;
+  text-align: center;
+}
+
+.headshot img {
+  width: 30%;
+  display: flex;
+  border-radius: 50%;
+}
+
+.project-samples {
+  display: block;
 }
 
 .project-samples div p {
-  background-image: url(../images/run-buddy-sample.JPG);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: 80%;
+  text-align: center;
 }
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   Padding: 60px;
 }
@@ -79,12 +95,16 @@ footer ul li {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
+  list-style: none;
+  margin: 0;
 }
 
 footer ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
+  text-decoration: underline;
+  color: black;
 }
 
 footer nav ul {
